@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>A rose, drawn in letters</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="wrap">
+  <h1>A rose, drawn in letters</h1>
+  <p class="s">The stem grows, the leaves unfold, then the bud opens and turns slowly. Every character is placed and shaded by light.</p>
+  <div class="stage" id="stage">
+    <canvas id="c" role="img" aria-label="Animated rose made of text characters, growing and slowly rotating"></canvas>
+    <div class="hud tr"><i>●</i> t <span id="t">00.00</span>s</div>
+    <div class="hud bl">bloom <span id="b">0.0</span>%<br>sway <span id="a">000.00</span>°<br>letters <span id="n">0</span></div>
+  </div>
+  <div class="row">
+    <button type="button" id="mode" aria-pressed="false">Letters: symbols</button>
+    <button type="button" id="replay">Replay</button>
+  </div>
+  <p class="cap" id="cap" aria-live="polite">Switch to “I love you” letters to draw the rose from 20 languages.</p>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
